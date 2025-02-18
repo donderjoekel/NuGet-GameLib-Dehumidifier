@@ -1,0 +1,33 @@
+{
+  "steam": {
+    "appId": 1440670,
+    "gameDistDepots": [
+      {
+        "depotId": 1440671,
+        "distributionName": "Windows",
+        "isDefault": true
+      }
+    ]
+  },
+  "processSettings": {
+    "excludeAssemblies": [
+      "Mono*.dll",
+      "netstandard.dll",
+      "System*.dll",
+      "mscorlib.dll"
+    ],
+    "assembliesToPublicise": [
+      "Assembly-CSharp.dll",
+      "Assembly-CSharp-firstpass.dll",
+      "Zeepkist.dll",
+      "ZeepkistNetworking.dll"
+    ],
+    "isIL2Cpp": false
+  },
+  "nuget": {
+    "name": "Zeepkist.GameLibs",
+    "description": "Stripped and publicized game libraries for Zeepkist"
+  },
+  "gameVersions": [
+  ]
+}
