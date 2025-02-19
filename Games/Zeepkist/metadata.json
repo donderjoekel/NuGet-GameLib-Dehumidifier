@@ -29,5 +29,22 @@
     "description": "Stripped and publicized game libraries for Zeepkist"
   },
   "gameVersions": [
+    {
+      "buildId": 17408934,
+      "timeUpdated": 1739890749,
+      "gameVersion": "",
+      "depots": [
+        {
+          "depotId": 1440671,
+          "manifestId": 3041619648535760369
+        }
+      ],
+      "frameworkTargets": [
+        {
+          "tfm": "netstandard2.0",
+          "dependencies": []
+        }
+      ]
+    }
   ]
 }
